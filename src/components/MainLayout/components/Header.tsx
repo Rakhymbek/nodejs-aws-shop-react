@@ -24,7 +24,7 @@ export default function Header() {
   };
 
   return (
-    <AppBar position="relative">
+    <AppBar color={"secondary"} position="relative">
       <Toolbar>
         <Typography variant="h6" sx={{ flexGrow: 1 }}>
           <Link
@@ -33,7 +33,7 @@ export default function Header() {
             underline="none"
             to="/"
           >
-            My Store!
+            My AWS Store!
           </Link>
         </Typography>
 
