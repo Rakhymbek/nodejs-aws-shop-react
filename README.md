@@ -17,6 +17,14 @@ This is frontend starter project for nodejs-aws mentoring program. It uses the f
 
 ## Available Scripts
 
+### `aws-deploy`
+
+To build and deploy the app using AWS CDK.
+
+link to cloudfront deployment - [Cloudfront](https://d39kkywqk6rcg.cloudfront.net)
+
+link to S3-website - [S3-website](http://rsagyn-aws-react-shop.s3-website-us-east-1.amazonaws.com/)
+
 ### `start`
 
 Starts the project in dev mode with mocked API on local environment.
