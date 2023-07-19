@@ -11,7 +11,7 @@
     "test:coverage": "vitest run --coverage",
     "lint": "eslint --ignore-path .gitignore --fix src",
     "prettier": "prettier src --write",
-    "aws-deploy": "npm install && npm run build && cd cdk-infra && npm install && npm run cdk-synth && npm run cdk-deploy"
+    "aws-deploy": "npm install -f && npm run build && cd cdk-infra && npm install && npm run cdk-synth && npm run cdk-deploy"
   },
   "dependencies": {
     "@emotion/react": "^11.9.3",
